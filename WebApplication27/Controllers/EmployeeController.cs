@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using WebApplication27.Models;
 
 namespace WebApplication27.Controllers
 {
-
+    [Authorize]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
@@ -19,6 +20,7 @@ namespace WebApplication27.Controllers
             this.repository = repository;
         }
 
+        //[AllowAnonymous]
         [HttpGet]
         [Route("api/[controller]")]
         public List<Employee> Get()

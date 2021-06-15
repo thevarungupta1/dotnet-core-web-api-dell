@@ -27,3 +27,10 @@ C:\Users\PC\source\repos\WebApplication27\WebApplication27\obj\Debug\net5.0\WebA
 C:\Users\PC\source\repos\WebApplication27\WebApplication27\obj\Debug\net5.0\ref\WebApplication27.dll
 C:\Users\PC\source\repos\WebApplication27\WebApplication27\obj\Debug\net5.0\WebApplication27.pdb
 C:\Users\PC\source\repos\WebApplication27\WebApplication27\obj\Debug\net5.0\WebApplication27.genruntimeconfig.cache
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PC\source\repos\WebApplication27\WebApplication27\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
