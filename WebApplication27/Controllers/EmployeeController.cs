@@ -32,5 +32,20 @@ namespace WebApplication27.Controllers
         {
             return repository.GetEmployeeById(id);
         }
+
+        [HttpPost]
+        [Route("api/[controller]")]
+        public Employee Post(Employee employee)
+        {
+            return repository.AddEmployee(employee);
+        }
+
+        [HttpDelete]
+        [Route("api/[controller]/{id}")]
+        public string Delete(int id)
+        {
+            repository.DeleteEmployee(id);
+            return "record deleted successfully";
+        }
     }
 }

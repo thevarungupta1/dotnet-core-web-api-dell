@@ -11,6 +11,6 @@ namespace WebApplication27.Models
         Employee GetEmployeeById(int id);
         Employee AddEmployee(Employee employee);
         void UpdateEmployee(Employee employee);
-        void DeleteEmployee(Employee employee);
+        void DeleteEmployee(int id);
     }
 }

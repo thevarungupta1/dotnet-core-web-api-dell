@@ -7,7 +7,7 @@ namespace WebApplication27.Models
 {
     public class EmployeeMockImpl : IEmployeeRepository
     {
-        private List<Employee> employees;
+        private static List<Employee> employees;
         private int count = 3;
 
         public EmployeeMockImpl()
@@ -25,9 +25,10 @@ namespace WebApplication27.Models
             return employee;
         }
 
-        public void DeleteEmployee(Employee employee)
+        public void DeleteEmployee(int id)
         {
-            throw new NotImplementedException();
+           Employee emp =  GetEmployeeById(id);
+            employees.Remove(emp);
         }
 
         public List<Employee> GetAllEmployee()
